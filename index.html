@@ -240,23 +240,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 text-center col-padding animate-box">
-					<div class="work buttonMyModal" style="background-image: url(images/SS\ Printing\ Area.png); cursor: pointer;" data-urutan="0">
-						<div class="desc">
-							<h3>Percetakan Printing Area</h3>
-							<span>Website Company Profile Percetakan</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 text-center col-padding animate-box">
-					<div class="work buttonMyModal" style="background-image: url(images/ss-project/mbj-1.png); cursor: pointer;" data-urutan="1">
-						<div class="desc">
-							<h3>Mobil Bekas Jatim 88</h3>
-							<span>Website Mobil Bekas Jatim</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 text-center col-padding animate-box">
-					<div class="work buttonMyModal" style="background-image: url(images/ss-project/wds-1.png); cursor: pointer;" data-urutan="2">
+					<div class="work buttonMyModal" style="background-image: url(images/web-desa.png); cursor: pointer;" data-urutan="0">
 						<div class="desc">
 							<h3>Website Desa Sidorejo</h3>
 							<span>Website Desa Sidorejo - Krian - Sidoarjo</span>
@@ -331,27 +315,11 @@
 	<script>
 		var dataProject = [
 			{
-				'nama': 'Percetakan Printing Area',
-				'keterangan': 'Desain Website Company Profile Percetakan',
-				'dibuat': 'HTML, Boostrap CSS, Jquery',
-				'foto': [
-					'SS Printing Area.png',
-				]
-			},
-			{
-				'nama': 'Mobil Bekas Jatim 88',
-				'keterangan': 'Website Mobil Bekas Jatim',
-				'dibuat': 'Framework Laravel',
-				'foto': [
-					'mbj-1.png',
-				]
-			},
-			{
 				'nama': 'Website Desa Sidorejo',
 				'keterangan': 'Website Desa Sidorejo - Krian - Sidoarjo',
 				'dibuat': 'Framework Laravel dan React Js',
 				'foto': [
-					'wds-1.png',
+					'web-desa.png',
 				]
 			},
 		];
@@ -366,7 +334,7 @@
 				`);
 				$('.carousel-inner').append(`
 					<div class="item ${i==0 ? 'active' : ''}">
-						<img src="images/ss-project/${v}">
+						<img src="images/${v}">
 					</div>
 				`);
 			});
